@@ -311,7 +311,7 @@ h3 {
 
 .divisonof {
   border-bottom: 1px solid white;
-  width: 280px;
+  width: 257px;
   padding: 5px;
   margin: 5px;
 }
@@ -326,9 +326,19 @@ h3 {
   margin-top: 10px;
 }
 .eye-image{
-  /* margin-right: -10px; */
+ 
   float: right;
+  margin-top: 9px;
 }
+ .right-section input{
+  outline: none;
+  box-shadow: none;
+ }
+
+ .icon{
+  color: #FFF;
+ }
+
 /* Login page css ends here */
 @keyframes kfr-filled {
   0% {
