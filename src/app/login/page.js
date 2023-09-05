@@ -6,8 +6,6 @@ export default function Login() {
   const [showPass, setShowPass] = useState(false);
   const [showConfirmPass, setShowConfirmPass] = useState(false);
 
-  useEffect((e) => {}, []);
-
   function showPassfn(e) {
     e.preventDefault();
     console.log("first");
@@ -97,7 +95,7 @@ export default function Login() {
 
             <br />
             <button type="button" className="log">
-              Login
+              Sign Up
             </button>
             <br />
             <div className="Newtopaypal">
